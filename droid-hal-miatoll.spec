@@ -9,8 +9,7 @@
 
 %define rpm_device miatoll
 
-%define installable_zip 1
-
+%define enable_kernel_update 1
 %define enable_dtbo_update 1
 
 # want adreno quirks is required for browser at least, and other subtle issues
